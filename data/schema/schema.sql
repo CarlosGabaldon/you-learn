@@ -1,4 +1,5 @@
 #$ mysql -u root < schema.sql
+#{~/Sites/you-learn/data/schema}$ mysql -u root < schema.sql 
 
 drop database if exists you_learn_dev;
 create database you_learn_dev;
